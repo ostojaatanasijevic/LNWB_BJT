@@ -1,0 +1,40 @@
+Circuit: * Z:\home\ostoja\Elektronika\LNWB_BJT\101_power_supply.asc
+
+WARNING: Less than two connections to node GATE_A.  This node is used by V2.
+WARNING: Less than two connections to node 5V.  This node is used by V4.
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.0011175 to 0.0011175
+Heightened Def Con from 0.0018925 to 0.0018925
+Heightened Def Con from 0.00203252 to 0.00203253
+Heightened Def Con from 0.00205752 to 0.00205753
+Heightened Def Con from 0.00206752 to 0.00206753
+Heightened Def Con from 0.00207252 to 0.00207253
+Heightened Def Con from 0.00208252 to 0.00208253
+Heightened Def Con from 0.0020875 to 0.0020875
+Heightened Def Con from 0.00209252 to 0.00209253
+Heightened Def Con from 0.00209752 to 0.00209753
+Heightened Def Con from 0.00211752 to 0.00211753
+Heightened Def Con from 0.00213252 to 0.00213253
+Heightened Def Con from 0.00216252 to 0.00216253
+Heightened Def Con from 0.00218252 to 0.00218253
+Heightened Def Con from 0.00220252 to 0.00220253
+Heightened Def Con from 0.00221752 to 0.00221753
+Heightened Def Con from 0.0022678 to 0.0022678
+
+Date: Mon Nov 25 22:07:34 2024
+Total elapsed time: 4.256 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 622840
+traniter = 622803
+tranpoints = 174063
+accept = 128627
+rejected = 45453
+matrix size = 107
+fillins = 50
+solver = Normal
+Matrix Compiler1: 10.96 KB object code size  1.2/0.6/[0.6]
+Matrix Compiler2: 9.44 KB object code size  0.5/0.7/[0.4]
+

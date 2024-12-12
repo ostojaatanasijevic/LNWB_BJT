@@ -1,0 +1,22 @@
+Circuit: * Z:\home\ostoja\Elektronika\LNWB_BJT\LNWBA_diy_opamp.asc
+
+WARNING: Less than two connections to node -5V.  This node is used by V4.
+Direct Newton iteration for .op point succeeded.
+
+Date: Wed Nov 20 15:34:21 2024
+Total elapsed time: 0.082 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 2974
+traniter = 2968
+tranpoints = 1485
+accept = 1218
+rejected = 267
+matrix size = 35
+fillins = 28
+solver = Normal
+Matrix Compiler1:     213 opcodes  0.6/[0.3]/0.3
+Matrix Compiler2: off  [0.3]/0.3/0.3
+
