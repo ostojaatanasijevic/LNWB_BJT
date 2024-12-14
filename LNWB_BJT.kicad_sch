@@ -2223,102 +2223,6 @@
 				)
 			)
 		)
-		(symbol "Simulation_SPICE:0"
-			(power)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#GND"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "0"
-				(at 0 -1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "0V reference potential for simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "simulation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "0_0_1"
-				(polyline
-					(pts
-						(xy -1.27 0) (xy 0 -1.27) (xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "0_1_1"
-				(pin power_in line
-					(at 0 0 0)
-					(length 0) hide
-					(name "0"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.016 1.016)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Transistor_BJT:2N3904"
 			(pin_names
 				(offset 0) hide)
@@ -9759,6 +9663,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 129.54 238.76 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27b8dfba-eb8f-4845-96b6-440575ef7c8f")
+		(property "Reference" "#PWR065"
+			(at 129.54 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 132.588 239.268 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 129.54 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 129.54 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 129.54 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "512c04e6-2a94-48b6-99a0-bde35e9528ad")
+		)
+		(instances
+			(project "LNWB_BJT"
+				(path "/8a55cab2-ac90-40a0-8f8e-219f66b3018a"
+					(reference "#PWR065")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_US")
 		(at 327.66 71.12 90)
 		(unit 1)
@@ -16056,73 +16026,6 @@
 			(project ""
 				(path "/8a55cab2-ac90-40a0-8f8e-219f66b3018a"
 					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:0")
-		(at 129.54 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ad829fcd-9035-4933-be1e-7ad303ef75f7")
-		(property "Reference" "#GND045"
-			(at 129.54 241.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "0"
-			(at 129.54 236.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 129.54 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 129.54 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 129.54 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "aba10eca-21d5-4e57-b578-4a9133f846f5")
-		)
-		(instances
-			(project "LNWB_BJT"
-				(path "/8a55cab2-ac90-40a0-8f8e-219f66b3018a"
-					(reference "#GND045")
 					(unit 1)
 				)
 			)
